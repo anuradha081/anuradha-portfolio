@@ -1,0 +1,91 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styl */
+  body {
+    font-family: 'Segoe UI',sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 0 20px;
+  }
+  
+  /* Header Styl*/
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #00bcd4;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 30px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  section h2 {
+    color: #00bcd4;
+    margin-bottom: 15px;
+  }
+  
+  /* About Section */
+  #about {
+    text-align: center;
+  }
+  
+  #about img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+  ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+  /* Contact Links */
+  #contact a {
+    color: #059cb0;
+    text-decoration: none;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    nav a {
+      display: block;
+      margin: 10px 0;
+    }
+    #about img {
+        width: 150px;
+      }
+  }
+  
